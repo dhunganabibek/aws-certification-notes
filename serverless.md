@@ -22,3 +22,11 @@ S3
 
 1. Synchronous - wait for response. from ApiGateway
 2. Asynchronous - do not wait for response. from s3
+
+# Dead Letter queue.
+
+send message to sns or sqs for further processing.
+
+# lambda destination
+
+1. SQS, SNS, lambda, Event Bridge
