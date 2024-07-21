@@ -7,7 +7,7 @@
 ## Type of workflow
 
 ```
-1. Sequential
-2. Parallel workflow
-3. Branching Workflow
+1. Standard
+2. Express
+3. Synchronous and Asynchronous Express Workflow
 ```
