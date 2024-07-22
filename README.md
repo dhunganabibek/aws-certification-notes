@@ -59,3 +59,8 @@ Canary deployment just help in weighted alias.
 
 ![alt text](image-12.png)
 ![alt text](image-13.png)
+
+## Question 12
+
+![alt text](image-14.png)
+Answer: D
