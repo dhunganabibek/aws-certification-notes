@@ -5,7 +5,7 @@ https://digitalcloud.training/category/aws-cheat-sheets/aws-developer-associate/
 
 ## questions
 
-These questiions and answer are complied from here:
+These questions and answer are complied from here:
 https://www.youtube.com/@sthithapragnakk
 Please visit the site for more information and description.
 
@@ -38,3 +38,7 @@ Please visit the site for more information and description.
 ## Question 7
 
 ![alt text](image-7.png)
+
+## Question 8
+
+![alt text](image-8.png)
