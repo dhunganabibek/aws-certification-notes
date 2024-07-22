@@ -49,3 +49,13 @@ Please visit the site for more information and description.
 Memcached can be multithreaded.
 ![alt text](image-10.png)
 <https://aws.amazon.com/elasticache/redis-vs-memcached/>
+
+## Question 10
+
+![alt text](image-11.png)
+Canary deployment just help in weighted alias.
+
+## Question 11
+
+![alt text](image-12.png)
+![alt text](image-13.png)
