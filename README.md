@@ -100,8 +100,9 @@ Answer:B
 ![alt text](image-22.png)
 Answer: A
 
-## Question 19
+## Question 20
 
+![alt text](image-23.png)
 Answer:
 
 ## Question 19
