@@ -64,3 +64,18 @@ Canary deployment just help in weighted alias.
 
 ![alt text](image-14.png)
 Answer: D
+
+## Question 13
+
+![alt text](image-15.png)
+Answer: D
+
+## Question 14
+
+![alt text](image-16.png)
+Answer: C
+
+## Question 15
+
+![alt text](image-17.png)
+Answer: B
