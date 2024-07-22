@@ -83,8 +83,719 @@ Answer: B
 ## Question 16
 
 ![alt text](image-18.png)
+Answer: C
+
+## Question 17
+
+![alt text](image-20.png)
+Answer: B
+
+## Question 18
+
+![alt text](image-21.png)
+Answer:B
+
+## Question 19
+
+![alt text](image-22.png)
+Answer: A
+
+## Question 19
+
 Answer:
 
-## Question 16
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
+
+Answer:
+
+## Question 19
 
 Answer:
