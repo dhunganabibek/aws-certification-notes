@@ -79,3 +79,12 @@ Answer: C
 
 ![alt text](image-17.png)
 Answer: B
+
+## Question 16
+
+![alt text](image-18.png)
+Answer:
+
+## Question 16
+
+Answer:
