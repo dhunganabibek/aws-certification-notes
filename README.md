@@ -18,3 +18,13 @@ https://digitalcloud.training/category/aws-cheat-sheets/aws-developer-associate/
 ## Question 3
 
 ![alt text](image-3.png)
+
+## Question 4
+
+![alt text](image-4.png)
+
+## Question 5
+
+![alt text](image-5.png)
+
+## Question 6
