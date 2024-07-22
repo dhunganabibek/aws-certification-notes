@@ -42,3 +42,10 @@ Please visit the site for more information and description.
 ## Question 8
 
 ![alt text](image-8.png)
+
+## Question 9
+
+![alt text](image-9.png)
+Memcached can be multithreaded.
+![alt text](image-10.png)
+<https://aws.amazon.com/elasticache/redis-vs-memcached/>
