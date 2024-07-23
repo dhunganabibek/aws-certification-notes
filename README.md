@@ -133,13 +133,16 @@ Answer: B
 
 Answer: B,D
 
-## Question 19
+## Question 26
 
-Answer:
+![alt text](image-30.png)
+Answer: A
 
-## Question 19
+## Question 27
 
-Answer:
+![alt text](image-31.png)
+Answer: B
+cloudfront only cache get, head and option request. (NOT POST)
 
 ## Question 19
 
