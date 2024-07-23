@@ -105,19 +105,25 @@ Answer: A
 ![alt text](image-23.png)
 Answer: A
 
-## Question 19
+## Question 21
 
-Answer:
+![alt text](image-24.png)
+Answer: B
 
-## Question 19
+## Question 22
 
-Answer:
+![alt text](image-25.png)
 
-## Question 19
+Answer: A,B
 
-Answer:
+## Question 23
 
-## Question 19
+![ ](image-26.png)
+Answer: B
+
+## Question 24
+
+![alt text](image-28.png)
 
 Answer:
 
