@@ -103,7 +103,7 @@ Answer: A
 ## Question 20
 
 ![alt text](image-23.png)
-Answer:
+Answer: A
 
 ## Question 19
 
