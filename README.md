@@ -125,11 +125,13 @@ Answer: B
 
 ![alt text](image-28.png)
 
-Answer:
+Answer: B
 
-## Question 19
+## Question 25
 
-Answer:
+![alt text](image-29.png)
+
+Answer: B,D
 
 ## Question 19
 
