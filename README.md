@@ -155,9 +155,11 @@ Answer: A
 ![alt text](image-33.png)
 Answer: C
 
-## Question 19
+## Question 30
 
-Answer:
+![alt text](image-34.png)
+
+Answer: A
 
 ## Question 19
 
