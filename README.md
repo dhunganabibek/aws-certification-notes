@@ -150,9 +150,10 @@ cloudfront only cache get, head and option request. (NOT POST)
 
 Answer: A
 
-## Question 19
+## Question 29
 
-Answer:
+![alt text](image-33.png)
+Answer: C
 
 ## Question 19
 
