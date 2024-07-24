@@ -161,9 +161,11 @@ Answer: C
 
 Answer: A
 
-## Question 19
+## Question 31
 
-Answer:
+![alt text](image-35.png)
+
+Answer: B
 
 ## Question 19
 
