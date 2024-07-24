@@ -144,9 +144,11 @@ Answer: A
 Answer: B
 cloudfront only cache get, head and option request. (NOT POST)
 
-## Question 19
+## Question 28
 
-Answer:
+![alt text](image-32.png)
+
+Answer: A
 
 ## Question 19
 
