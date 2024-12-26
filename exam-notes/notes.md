@@ -29,3 +29,5 @@ Automation: custom playbook
 Run Command: excute command on managed compute with out SSH and RDP
 Session Manager: Connect to managed comput with out SSH and RDP.
 
+## Instance profile
+Used to attach IAM role to EC2 instance.
