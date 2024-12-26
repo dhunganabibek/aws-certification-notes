@@ -17,3 +17,6 @@ Physical firewall for vpc.
 WAF protect on layer 7 for DDOS and layer  3 and 4 is protected by shield. 
 WAF also protect from SQL injection and cross site scripting.
 Also block specific counytry or IP address.
+
+## AWS Audit Manager
+Automated service that provides report specific.
