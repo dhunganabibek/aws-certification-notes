@@ -24,3 +24,8 @@ Automated service that provides report specific.
 ## AWS artifcact
 Single source for compliance related information.
 
+## system manager
+Automation: custom playbook
+Run Command: excute command on managed compute with out SSH and RDP
+Session Manager: Connect to managed comput with out SSH and RDP.
+
