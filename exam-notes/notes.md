@@ -11,3 +11,7 @@ Threat detection service. detect compromised instance and account compromise.
 
 ## AWS Network Firewall
 Physical firewall for vpc.
+
+## WAF
+WAF protect on layer 7 for DDOS and layer  3 and 4 is protected by shield. 
+WAF also protect from SQL injection and cross site scripting.
