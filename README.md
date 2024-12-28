@@ -1,820 +1,102 @@
-# aws-certification-notes
+# AWS Notes
 
-AWS certification notes
-https://digitalcloud.training/category/aws-cheat-sheets/aws-developer-associate/?megamenu
+## AWS Detective
 
-## questions
+operatates across multiple aws account and analyze the root cause of the issue.
 
-These questions and answer are complied from here:
-https://www.youtube.com/@sthithapragnakk
-Please visit the site for more information and description.
+## AWS Inspector
 
-## Questions 1
+Automated vulnerabilities management service that scan ec2 and container for software vulnerabilities and unintented network exposure.
+Have host(ec2) and network(vpc) assesments.
 
-![alt text](image.png)
+## AWS Guard Duty
 
-## Question 2
+Threat detection service. detect compromised instance and account compromise.
 
-![alt text](image-1.png)
+## AWS Network Firewall
 
-![alt text](image-2.png)
+Physical firewall for vpc.
 
-## Question 3
+## WAF
 
-![alt text](image-3.png)
+WAF protect on layer 7 for DDOS and layer  3 and 4 is protected by shield.
+WAF also protect from SQL injection and cross site scripting.
+Also block specific counytry or IP address.
 
-## Question 4
+## AWS Audit Manager
 
-![alt text](image-4.png)
+Automated service that provides report specific to compliance.
 
-## Question 5
+## AWS artifact
 
-![alt text](image-5.png)
+Single source for compliance related information.
 
-## Question 6
+## system manager
 
-![alt text](image-6.png)
+can manage both on premise and AWS compute
+Automation: custom playbook
+Run Command: excute command on managed compute with out SSH and RDP
+Session Manager: Connect to managed comput with out SSH and RDP.
 
-## Question 7
+## Instance profile
 
-![alt text](image-7.png)
+Used to attach IAM role to EC2 instance.
 
-## Question 8
+## changing securtiy group of instance
 
-![alt text](image-8.png)
+possible when instance is running or stopped
 
-## Question 9
+## User pools and Identity Pools
 
-![alt text](image-9.png)
-Memcached can be multithreaded.
-![alt text](image-10.png)
-<https://aws.amazon.com/elasticache/redis-vs-memcached/>
+users pools: user diretory for sign on and sign up.
+identity pools: grant user access to aws services.
 
-## Question 10
+## NACL
 
-![alt text](image-11.png)
-Canary deployment just help in weighted alias.
+stateless (SG being stateful)
+like firewall for subnet
+default NACL: allow all inbound and outbound traffic
+custom NACL: deny all traffic
+rule applied from low to high. And eager apply (even if it is denied later)
 
-## Question 11
+## SG
 
-![alt text](image-12.png)
-![alt text](image-13.png)
+statful
+only allow rule.
+Default all inbound blocked and all out boun allowed
 
-## Question 12
+## AWS Quantum Ledger Database
 
-![alt text](image-14.png)
-Answer: D
+Immutable and cryptrographycally verifiable.
 
-## Question 13
+### neptune
 
-![alt text](image-15.png)
-Answer: D
+graph datanbase
 
-## Question 14
+## metadata and userdate
 
-![alt text](image-16.png)
-Answer: C
+Instance Metadata:
 
-## Question 15
+meta data: <http://169.254.169.254/latest/meta-data/>  
+User Data: <http://169.254.169.254/latest/user-data>
 
-![alt text](image-17.png)
-Answer: B
+## EKS Distro
 
-## Question 16
+kibernetes distro used by aws eks
+<https://github.com/aws/eks-distro>
 
-![alt text](image-18.png)
-Answer: C
+## Prometheus and Grafana
 
-## Question 17
+Prometheus - monitoring tool
+Grafana - visualization tool
 
-![alt text](image-20.png)
-Answer: B
+## step of authorizing cognito through third party like facebook
 
-## Question 18
+1. **Authenticate and get token from facebook**
+2. **Exchange that facebook token to cognito token**
+3. **Use Cognito token to obatain temporay aws credentials from Identity Pool**
+4. **use temporary aws crendentials to access aws services**
 
-![alt text](image-21.png)
-Answer:B
+## Amazon Appflow
 
-## Question 19
-
-![alt text](image-22.png)
-Answer: A
-
-## Question 20
-
-![alt text](image-23.png)
-Answer: A
-
-## Question 21
-
-![alt text](image-24.png)
-Answer: B
-
-## Question 22
-
-![alt text](image-25.png)
-
-Answer: A,B
-
-## Question 23
-
-![ ](image-26.png)
-Answer: B
-
-## Question 24
-
-![alt text](image-28.png)
-
-Answer: B
-
-## Question 25
-
-![alt text](image-29.png)
-
-Answer: B,D
-
-## Question 26
-
-![alt text](image-30.png)
-Answer: A
-
-## Question 27
-
-![alt text](image-31.png)
-Answer: B
-cloudfront only cache get, head and option request. (NOT POST)
-
-## Question 28
-
-![alt text](image-32.png)
-
-Answer: A
-
-## Question 29
-
-![alt text](image-33.png)
-Answer: C
-
-## Question 30
-
-![alt text](image-34.png)
-
-Answer: A
-
-## Question 31
-
-![alt text](image-35.png)
-
-Answer: B
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
-
-## Question 19
-
-Answer:
+automate exchange of data between saas venders and aws service like s3. can transfer 100gb per flow.
