@@ -51,6 +51,9 @@ possible when instance is running or stopped
 users pools: user diretory for sign on and sign up.
 identity pools: grant user access to aws services.
 
+## NACL
 
+default NACL: allow all inbound and outbound traffic
+custom NACL: deny all traffic
 
 
