@@ -25,7 +25,7 @@ Also block specific counytry or IP address.
 
 ## AWS Audit Manager
 
-Automated service that provides report specific.
+Automated service that provides report specific to compliance.
 
 ## AWS artifact
 
@@ -53,7 +53,36 @@ identity pools: grant user access to aws services.
 
 ## NACL
 
+stateless (SG being stateful)
+like firewall for subnet
 default NACL: allow all inbound and outbound traffic
 custom NACL: deny all traffic
+rule applied from low to high. And eager apply (even if it is denied later)
+
+## SG
+
+statful
+only allow rule.
+Default all inbound blocked and all out boun allowed
+
+## AWS Quantum Ledger Database
+
+Immutable and cryptrographycally verifiable.
+
+### neptune
+
+graph datanbase
+
+## metadata and userdate
+
+Instance Metadata:
+
+meta data: http://169.254.169.254/latest/meta-data/  
+User Data: http://169.254.169.254/latest/user-data
+
+## EKS Distro
+
+kibernetes distro used by aws eks
+https://github.com/aws/eks-distro
 
 
