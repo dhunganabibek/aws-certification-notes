@@ -77,12 +77,22 @@ graph datanbase
 
 Instance Metadata:
 
-meta data: http://169.254.169.254/latest/meta-data/  
-User Data: http://169.254.169.254/latest/user-data
+meta data: <http://169.254.169.254/latest/meta-data/>  
+User Data: <http://169.254.169.254/latest/user-data>
 
 ## EKS Distro
 
 kibernetes distro used by aws eks
-https://github.com/aws/eks-distro
+<https://github.com/aws/eks-distro>
 
+## Prometheus and Grafana
 
+Prometheus - monitoring tool
+Grafana - visualization tool
+
+## step of authorizing cognito through third party like facebook
+
+1. **Authenticate and get token from facebook**
+2. **Exchange that facebook token to cognito token**
+3. **Use Cognito token to obatain temporay aws credentials from Identity Pool**
+4. **use temporary aws crendentials to access aws services**
