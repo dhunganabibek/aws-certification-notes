@@ -27,7 +27,7 @@ Also block specific counytry or IP address.
 
 Automated service that provides report specific.
 
-## AWS artifcact
+## AWS artifact
 
 Single source for compliance related information.
 
@@ -45,4 +45,12 @@ Used to attach IAM role to EC2 instance.
 ## changing securtiy group of instance
 
 possible when instance is running or stopped
+
+## User pools and Identity Pools
+
+users pools: user diretory for sign on and sign up.
+identity pools: grant user access to aws services.
+
+
+
 
