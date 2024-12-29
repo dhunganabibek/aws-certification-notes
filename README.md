@@ -20,6 +20,7 @@ Physical firewall for vpc.
 ## AWS Security Hub
 
 loud Security Posture Management service that performs security best practice checks, aggregates alerts, and enables automated remediation
+a single place to view security realted alerts from services like (GuardDuty, Inspector, Macie, AWS Firewall Manager)
 
 ## WAF
 
@@ -163,7 +164,7 @@ lex - chatbot
 polly - text to speech
 transacribe - speech to text
 
-## SG to instance and NACL
+## SG to instance and NACL5 GB of standard Amazon S3 storage is provided with the AWS Free Tier's always free offer.
 
 1 instance - 5SG
 1 subnet - 1 NACL
@@ -282,7 +283,7 @@ build scalable applications, including real-time updates and offline capabilitis
 
 Fully managed service for running batch computing workloads with dynamic provisioning of EC2 instances.
 
-## Scaling by ASG:
+## Scaling by ASG
 
 Target Tracking Scaling: Maintains a target metric value.
 Step Scaling: Scales based on the severity of metric breaches.
@@ -306,7 +307,6 @@ asynchronus - read repilcas
 | **Edge Endpoints**             | Part of the AWS global network, used for services like CloudFront.           | Improve performance and availability by routing traffic through the AWS global network.      | Amazon CloudFront, AWS Global Accelerator             |
 | **PrivateLink Endpoints**      | Private connectivity between VPCs, AWS services, and on-premises applications. | Access services hosted on AWS privately without exposing your traffic to the public internet. | Custom services, Amazon S3, Amazon EC2                |
 
-
 ## EFS types| Volume Type            | Purpose                                             | Performance                                          | Use Case                                            | Cost                                                 |
 
 | Volume Type            | Purpose                                             | Performance                                          | Use Case                                            | Cost                                                 |
@@ -318,3 +318,56 @@ asynchronus - read repilcas
 | **st1**                | Frequently accessed, throughput-intensive workloads. | Baseline 40 MB/s per TB, up to 500 MB/s per volume. | Big data, data warehouses, log processing, streaming workloads. | Lower cost compared to SSD volumes, optimized for throughput. |
 | **sc1**                | Infrequently accessed, throughput-intensive workloads. | Baseline 12 MB/s per TB, up to 250 MB/s per volume. | Infrequently accessed data, cold data storage, large volumes of data with low access frequency. | Lowest cost, optimized for infrequent access.        |
 | **Magnetic**           | Legacy workloads with infrequent access.            | Lower performance compared to SSD and HDD volumes.  | Infrequently accessed data, legacy workloads.       | Lower cost, but less efficient compared to newer volume types. |
+
+## Amazon keyspaces
+
+ managed, scalable, and highly available Cassandra-compatible database service.
+
+## types of scaling
+
+ | Scaling Type           | Purpose                                             | Use Case                                            | Key Features                                        | Example                                             |
+|------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
+| **Predictive Scaling** | Uses machine learning to forecast traffic and capacity needs. | Predictable traffic patterns (e.g., daily or weekly cycles). | Automatically adjusts capacity in anticipation of predicted traffic spikes and drops. | Automatically scales resources in anticipation of weekday traffic spikes and weekend drops. |
+| **Scheduled Scaling**  | Adjusts the number of instances based on a predefined schedule. | Predictable workloads that follow a regular schedule. | Specify exact times to increase or decrease the number of instances. | Scale out to 10 instances at 8 AM and scale in to 2 instances at 6 PM every day. |
+| **Dynamic Scaling**    | Automatically adjusts the number of instances based on real-time changes in demand. | Variable and unpredictable workloads.               | Uses scaling policies based on CloudWatch alarms to trigger scaling actions. | Scale out when CPU utilization exceeds 70% and scale in when it drops below 30%. |
+| **Manual Scaling**     | Allows you to manually adjust the number of instances. | Scenarios where you want full control over scaling actions. | Manually increase or decrease the number of instances. | Manually scale out to 5 instances during a planned event and scale in to 2 instances afterward. |
+
+## EBS snapshots
+
+Amazon Data lifecycle manager to automate the creation of EBS snapshots.
+
+## NAT Gateway vs NAT instance
+
+## NAT Gateway vs NAT Instances
+
+Provide internet access to private subnet through NAT
+
+| Feature                | NAT Gateway                                      | NAT Instances                                      |
+|------------------------|--------------------------------------------------|----------------------------------------------------|
+| **Managed Service**    | Fully managed by AWS                             | Requires user management                           |
+| **Scalability**        | Automatically scales up to handle traffic        | Requires manual scaling                            |
+| **Availability**       | Highly available and fault-tolerant              | Requires configuration for high availability       |
+| **Performance**        | Consistent performance                           | Performance depends on instance type               |
+| **Cost**               | Higher cost due to managed service               | Potentially lower cost but requires management     |
+| **Setup**              | Easy to set up                                   | Requires more configuration                        |
+| **Security Groups**    | Cannot be associated with security groups        | Can be associated with security groups             |
+| **Elastic IP**         | Automatically assigned                           | Must be manually assigned                          |
+| **Use Case**           | Recommended for most use cases                   | Suitable for custom configurations and lower cost  |
+
+## RDS MultiAZ Deployment
+
+During primary failover, CName is swiched.
+
+## AWS Outpost
+
+It allows you to run AWS services locally on your own hardware while maintaining a consistent hybrid experience.
+
+## AWS Application Migration Service (MGN)
+
+is a highly automated lift-and-shift (rehost) solution that simplifies, expedites, and reduces the cost of migrating applications to AWS
+
+## AWS Wavelength
+
+ embeds AWS compute and storage services within 5G networks
+
+
