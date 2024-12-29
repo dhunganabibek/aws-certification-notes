@@ -130,3 +130,27 @@ automate exchange of data between saas venders and aws service like s3. can tran
     - Snowbal Edge Storage Optmized (80 Tb 40  vCPU)
 
 3. Snowmobile - 100 PB (long shipping container)
+
+## Upload to s3
+
+Single object can be of max 160gb. Beyound that use  s3 multipart upload.
+
+## Message Broker  vs Streaming plantform
+
+|Message Broker |  Streaminng Platform   |
+|----------------------------------------|---------------------------------|
+| Decoupling and routing messages        |  Real time data  processing     |
+| Short term                             | long term                       |
+| Push based(RAbbit MQ), SQS (pull based)|  pull based  (Kafka)            |
+
+## kinesis Data stream vs Data Firehose
+
+|Data stream                        |                   Data Firehose               |
+|-----------------------------------|-----------------------------------------------|
+| real time streaming (processing)  | real time data delivery                       |
+| custom app/lambda for processing  | managed service( no custim code)              |
+| data retention (configurable)     | data rentention (short, until delivered)      |
+| Highly scalable (shards)          | automatic scalable                            |
+| custom code for delivery          | automatic delver to s3, redshift, elastic search , splunk|
+
+
