@@ -2,7 +2,7 @@
 
 ## AWS Detective
 
-operatates across multiple aws account and analyze the root cause of the issue.
+Operatates across multiple aws account and analyze the root cause of the issue.
 
 ## AWS Inspector
 
