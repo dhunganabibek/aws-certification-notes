@@ -159,13 +159,77 @@ lex - chatbot
 polly - text to speech
 transacribe - speech to text
 
-### SG to instance
+## SG to instance and NACL
 
 1 instance - 5SG
 1 subnet - 1 NACL
+Also, you can not delete default security group
+You can not modify NACL rule with `* All Traffic Deny`
+IG is attached to VPC (not subnets)
 
 ## Amazon Fraud Detector
 
-AI service build to detect fraud in your data.
+AI service build to detect fraud in your data
 
+## AWS Firewall Manager and AWS Network Firewall
+
+| AWS Firewall Manager | AWS Network Firewall|
+|----------------------|---------------------|
+| organization level   | VPC level           |
+
+## SES
+
+S3 Notification can not use SES directly. It can use SQS, SNS and lambda as destination
+
+## Multi AZ database deployment
+
+Use synchronous standby (write to both primary and replica simultaneously, so might take some time for writing).
+If you want multi region, you can use READ repilcas or Aurora Global database.
+
+### 1. Simple Routing
+
+- Directs traffic to a single resource without any special routing logic.
+
+### 2. Weighted Routing
+
+- Distributes traffic across multiple resources based on assigned weights to balance load or perform A/B testing.
+
+### 3. Latency Routing
+
+- Routes traffic to the resource that provides the lowest latency for the user to improve performance.
+
+### 4. Failover Routing
+
+- Routes traffic to a primary resource and automatically fails over to a secondary resource if the primary becomes unavailable.
+
+### 5. Geolocation Routing
+
+- Routes traffic based on the geographic location of the user to provide localized content or comply with regulatory requirements.
+
+### 6. Geoproximity Routing (Traffic Flow Only)
+
+- Routes traffic based on the geographic location of users and resources, with the ability to shift traffic by specifying a bias.
+
+### 7. Multi-Value Answer Routing
+
+- Returns multiple IP addresses in response to DNS queries to provide simple load balancing and health checks.
+
+## Readily available in EC2 cloud watch
+
+- CPU
+- Disk
+- Network
+- StatusCheckFailed
+- But not memory (for memory you have to go custom metrics)
+
+## Elastic Network Interface
+
+It can be attached to EC2 in VPC.
+
+Hot Attach: Attaching an ENI to an instance while it is running.
+Warm Attach: Attaching an ENI to an instance while it is stopped.
+Cold Attach: Attaching an ENI to an instance when it is being launched.
+
+Public ENI: Attached to the instance to handle incoming HTTP requests from the internet.
+Private ENI: Attached to the same instance to handle secure communication with a backend database within the VPC.
 
