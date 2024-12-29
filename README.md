@@ -17,6 +17,10 @@ Threat detection service. detect compromised instance and account compromise.
 
 Physical firewall for vpc.
 
+## AWS Security Hub
+
+loud Security Posture Management service that performs security best practice checks, aggregates alerts, and enables automated remediation
+
 ## WAF
 
 WAF protect on layer 7 for DDOS and layer  3 and 4 is protected by shield.
@@ -278,10 +282,26 @@ build scalable applications, including real-time updates and offline capabilitis
 
 Fully managed service for running batch computing workloads with dynamic provisioning of EC2 instances.
 
-
-## sScaling by ASG:
+## Scaling by ASG:
 
 Target Tracking Scaling: Maintains a target metric value.
 Step Scaling: Scales based on the severity of metric breaches.
 Simple Scaling: Scales based on a single metric threshold.
 Scheduled Scaling: Scales based on a predefined schedule.
+
+## data replicatin in Database
+
+synchronous - Multi-AZ deployment
+asynchronus - read repilcas
+
+## types of Endpoints
+
+| Endpoint Type                  | Description                                                                 | Use Case                                                                                     | Example Services                                      |
+|--------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| **Interface Endpoints**        | ENIs with private IPs for AWS services.                                      | Private connections to AWS services within your VPC.                                         | Amazon S3, Amazon EC2, AWS Lambda, Amazon SNS         |
+| **Gateway Endpoints**          | Route table entries for AWS services.                                        | Private connections to AWS services like S3 and DynamoDB within your VPC.                    | Amazon S3, Amazon DynamoDB                            |
+| **Gateway Load Balancer Endpoints** | Combine Gateway Load Balancer with an endpoint.                              | Deploy and manage virtual appliances like firewalls and intrusion detection systems.         | Custom network and security appliances                |
+| **VPC Endpoints**              | Private connections between VPC and AWS services.                            | Securely connect to AWS services and third-party services without using the public internet. | Amazon S3, Amazon EC2, AWS Lambda, Amazon SNS         |
+| **Regional Endpoints**         | Endpoints specific to a particular AWS region.                               | Access AWS services within a specific region.                                                | Most AWS services                                     |
+| **Edge Endpoints**             | Part of the AWS global network, used for services like CloudFront.           | Improve performance and availability by routing traffic through the AWS global network.      | Amazon CloudFront, AWS Global Accelerator             |
+| **PrivateLink Endpoints**      | Private connectivity between VPCs, AWS services, and on-premises applications. | Access services hosted on AWS privately without exposing your traffic to the public internet. | Custom services, Amazon S3, Amazon EC2                |
