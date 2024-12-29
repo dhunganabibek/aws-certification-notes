@@ -233,3 +233,23 @@ Cold Attach: Attaching an ENI to an instance when it is being launched.
 Public ENI: Attached to the instance to handle incoming HTTP requests from the internet.
 Private ENI: Attached to the same instance to handle secure communication with a backend database within the VPC.
 
+## AWS AppSync
+
+build scalable applications, including real-time updates and offline capabilitis using GraphQL.
+
+## Dedicated Host vs Dedicated instancce
+
+| Feature                | Dedicated Host                                      | Dedicated Instance                                  |
+|------------------------|-----------------------------------------------------|-----------------------------------------------------|
+| **Definition**         | Entire physical server dedicated to you.            | Instances on hardware dedicated to you.             |
+| **Control**            | Full control over instance placement.               | No control over instance placement.                 |
+| **Billing**            | Billed per host.                                    | Billed per instance.                                |
+| **Use Case**           | Compliance, licensing, control over hardware.       | Physical isolation without hardware control.        |
+| **Isolation**          | Yes, with control over the server.                  | Yes, but no control over the server.                |
+
+### Simplified Explanation
+
+- **Dedicated Host**: Like having your own physical server (full control, like a VPS).
+- **Dedicated Instance**: Like having multiple computers on the same dedicated hardware (isolated but no control over the hardware).
+
+## 
