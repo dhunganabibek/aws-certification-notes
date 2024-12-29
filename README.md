@@ -153,4 +153,19 @@ Single object can be of max 160gb. Beyound that use  s3 multipart upload.
 | Highly scalable (shards)          | automatic scalable                            |
 | custom code for delivery          | automatic delver to s3, redshift, elastic search , splunk|
 
+## services used by alexa
+
+lex - chatbot
+polly - text to speech
+transacribe - speech to text
+
+### SG to instance
+
+1 instance - 5SG
+1 subnet - 1 NACL
+
+## Amazon Fraud Detector
+
+AI service build to detect fraud in your data.
+
 
