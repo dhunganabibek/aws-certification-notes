@@ -99,4 +99,23 @@ Grafana - visualization tool
 
 ## Amazon Appflow
 
-automate exchange of data between saas venders and aws service like s3. can transfer 100gb per flow.
+automate exchange of data between saas venders and aws service like s3. can transfer 100 GB per flow.
+
+## ALB vs NLB
+
+| Feature                     | Network Load Balancer (NLB)             | Application Load Balancer (ALB)       |
+|-----------------------------|-----------------------------------------|---------------------------------------|
+| OSI Model Layer             | Layer 4 (Transport Layer)               | Layer 7 (Application Layer)           |
+| Protocol Support            | TCP, UDP, TLS                           | HTTP, HTTPS, WebSocket                |
+| Performance                 | High performance, low latency           | Good performance, more features       |
+| Use Case                    | Ideal for extreme performance           | Ideal for web applications and microservices |
+| Health Checks               | Supports TCP, HTTP, HTTPS health checks | Supports HTTP, HTTPS health checks    |
+| Sticky Sessions             | Not supported                           | Supported                             |
+| SSL Termination             | Supported                               | Supported                             |
+| Target Types                | IP addresses, instance IDs              | IP addresses, instance IDs, Lambda functions |
+| Path-Based Routing          | Not supported                           | Supported                             |
+| Host-Based Routing          | Not supported                           | Supported                             |
+| WebSocket Support           | Not supported                           | Supported                             |
+| Cross-Zone Load Balancing   | Supported                               | Supported                             |
+| Logging                     | VPC Flow Logs                           | Access Logs                           |
+| Pricing                     | Generally lower cost                    | Generally higher cost                 |
