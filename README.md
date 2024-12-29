@@ -119,3 +119,14 @@ automate exchange of data between saas venders and aws service like s3. can tran
 | Cross-Zone Load Balancing   | Supported                               | Supported                             |
 | Logging                     | VPC Flow Logs                           | Access Logs                           |
 | Pricing                     | Generally lower cost                    | Generally higher cost                 |
+
+## AWS Snowball Family
+
+1. SnowCone - 8TB
+
+2. Snowball Edge (both storage and compute)
+
+    - Snowball Edge  Compute optimized (42 TB, 52 vCPU)
+    - Snowbal Edge Storage Optmized (80 Tb 40  vCPU)
+
+3. Snowmobile - 100 PB (long shipping container)
