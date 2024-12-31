@@ -393,8 +393,54 @@ You can not do this dorectly. Instead increase memory which will also increase C
 define protocol viewer can use to access cloudfront content.
 options: http and https, redirect http to https and https only.
 
-## Indentity center
+## Identity center
 
 - Centralozed Access Management (SS0)
 - integrate with identity providers(Microsoft Active Directory, Okta) using SAML 2.0
 - can integrate woith directory service for SAML (AD connector)
+
+## Server Side Encryption in S3
+
+``` json
+    "Version": "2012-10-17"
+    "Statement": [
+        "Effect": "Deny",
+        "Principal": "*",
+        "Action":"s3:PutObject",
+        "Resource": "arn:aws:s3:::/bucket-name/*",
+        "Condition:{
+            "StringNotEquals":{
+                "s3:z-amz-server-side-encryptio": "AES256"
+            }
+        }
+    ]
+```
+
+making s3 sp
+
+```bash
+aws s3 cp myfile s3://bucket-name/ --sse AES256
+```
+
+using put object using boto3
+
+```python
+import boto3
+
+s3 = boto3.client('s3')
+
+s3.upload_file(
+    'myfile',
+    'bucket-name',
+    'myfile.txt',
+    ExtraArgs={'ServerSideEncryption': 'AES246'}
+
+)
+```
+
+Note: upload_file is higher level abstraction of put_object and handle (retry, progress tracking and multipart upload automatically for big files)
+
+## Encrypting AMI
+
+You can not encrpt the AMI after being created. You can copy the AMI, specify to encrypt the copy.
+Basically, AMI region specific. If you neeed in another region, copy it.
