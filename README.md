@@ -384,4 +384,17 @@ It have function like ZRANGE and ZRANK to sort and rank the data
 - Application Start
 - Validate Service
 
+## CPU increase in Lambda
 
+You can not do this dorectly. Instead increase memory which will also increase CPU.
+
+## Viewer Protocol Policy
+
+define protocol viewer can use to access cloudfront content.
+options: http and https, redirect http to https and https only.
+
+## Indentity center
+
+- Centralozed Access Management (SS0)
+- integrate with identity providers(Microsoft Active Directory, Okta) using SAML 2.0
+- can integrate woith directory service for SAML (AD connector)
