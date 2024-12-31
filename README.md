@@ -458,7 +458,7 @@ Configuration Management Service that provide managed instance of chef and puppe
 1. Primary Key
 
     - Partition/Hash key
-    - Composite key (Partition and Hash Key)
+    - Composite key (Partition and Sort/Range key)
 
 2. Secondary keys
 
@@ -476,3 +476,44 @@ Configuration Management Service that provide managed instance of chef and puppe
 | Use Case                       | Different access patterns and query requirements      | Alternate sort keys for querying within the same partition |
 | Consistency                    | Eventually consistent reads by default, can be strongly consistent | Strongly consistent reads                             |
 | Creation Time                  | Can be created at any time                            | Must be created at the time of table creation         |
+
+## Work flows in state function
+
+| Feature                        | Standard Workflows                              | Express Workflows                               |
+|--------------------------------|-------------------------------------------------|-------------------------------------------------|
+| Execution Duration             | Up to 1 year                                    | Up to 5 minutes                                 |
+| Execution Start Rate           | Up to 2,000 per second                          | Up to 100,000 per second                        |
+| State Transition Rate          | Up to 4,000 per second                          | Up to 100,000 per second                        |
+| Billing                        | Based on the number of state transitions        | Based on the number of executions and duration  |
+| Use Case                       | Long-running, durable workflows                 | High-volume, short-duration workflows           |
+| Error Handling                 | Built-in retry and error handling               | Built-in retry and error handling               |
+| Execution History              | Detailed execution history available            | Limited execution history available             |
+| Monitoring                     | CloudWatch Logs, CloudWatch Metrics, X-Ray      | CloudWatch Logs, CloudWatch Metrics, X-Ray      |
+| State Machine Execution        | Synchronous and asynchronous                    | Synchronous and asynchronous                    |
+| State Machine Definition       | Amazon States Language (ASL)                    | Amazon States Language (ASL)                    |
+| Integration with AWS Services  | Full integration with AWS services              | Full integration with AWS services              |
+| Pricing Model                  | Pay per state transition                        | Pay per execution and duration                  |
+| Ideal For                      | Complex workflows with long-running tasks       | High-volume event processing and short tasks    |
+
+## Deplooyment using aws cloud formation
+
+- use create-stack-set and create-stack-insatnce to deploy stack set in muliple region.
+Structue
+
+```yaml
+AWSTemplateFormatVersion:
+Description:
+Parameters: input
+Resources:  is only mandatory
+Output: 
+```
+
+## Cloudlog Insights
+
+Enable you to interactively search and analyze the log.
+
+## using X-Ray with EC2 or onpremise server
+
+need to install X-Ray SDK and X-Ray Daemon
+
+
