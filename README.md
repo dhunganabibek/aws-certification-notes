@@ -370,4 +370,18 @@ is a highly automated lift-and-shift (rehost) solution that simplifies, expedite
 
  embeds AWS compute and storage services within 5G networks
 
+## redis
+
+It have function like ZRANGE and ZRANK to sort and rank the data
+
+## Code Deploy
+
+- Application Stop
+- Download Bundle
+- Before  Install
+- Install
+- After Install
+- Application Start
+- Validate Service
+
 
