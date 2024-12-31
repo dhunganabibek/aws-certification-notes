@@ -444,3 +444,35 @@ Note: upload_file is higher level abstraction of put_object and handle (retry, p
 
 You can not encrpt the AMI after being created. You can copy the AMI, specify to encrypt the copy.
 Basically, AMI region specific. If you neeed in another region, copy it.
+
+## AWS Codepipeline
+
+You can create test stage with test action before deoloyment.
+
+## AWS Opswork
+
+Configuration Management Service that provide managed instance of chef and puppet.
+
+## Types of key in Dynamodb
+
+1. Primary Key
+
+    - Partition/Hash key
+    - Composite key (Partition and Hash Key)
+
+2. Secondary keys
+
+    - Global Secondary Index 
+    - Local Secondary Index
+
+| Feature                        | Global Secondary Index (GSI)                          | Local Secondary Index (LSI)                           |
+|--------------------------------|-------------------------------------------------------|-------------------------------------------------------|
+| Partition Key                  | Can be different from the base table's partition key  | Must be the same as the base table's partition key    |
+| Sort Key                       | Optional, can be different from the base table's sort key | Must be different from the base table's sort key      |
+| Query Scope                    | Across all partitions                                 | Within a single partition                             |
+| Write Capacity Units (WCU)     | Separate from the base table                          | Shared with the base table                            |
+| Read Capacity Units (RCU)      | Separate from the base table                          | Shared with the base table                            |
+| Maximum Number per Table       | Up to 20 GSIs per table                               | Up to 5 LSIs per table                                |
+| Use Case                       | Different access patterns and query requirements      | Alternate sort keys for querying within the same partition |
+| Consistency                    | Eventually consistent reads by default, can be strongly consistent | Strongly consistent reads                             |
+| Creation Time                  | Can be created at any time                            | Must be created at the time of table creation         |
