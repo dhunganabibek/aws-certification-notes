@@ -516,4 +516,33 @@ Enable you to interactively search and analyze the log.
 
 need to install X-Ray SDK and X-Ray Daemon
 
+## Dynamodb stream
+
+Captures and store time ordered sequence of time level modification
+
+## AWS SAM
+
+- initialize the application.
+
+    ``` bash
+        sam init
+    ```
+
+- build the application
+
+    ```bash
+        sam build
+    ```
+
+- invoke the lambda locally.
+
+    ```bash
+        sam local invoke MyFunction
+    ```
+
+- start api Gateway.
+
+ ```bash
+    sam local start-api
+ ```
 
