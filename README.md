@@ -590,9 +590,43 @@ One instance can handle multiple shards but good approach number is instance usu
 
 ## Mapping in AWS cloud formation
 
-create map of keys and their associated values.
+create map of keys and their associated values.  
+You create a nested stack within another stack by using the AWS::CloudFormation::Stack resource.  
+Termination protection stack option can be enabled to prevent accidental deletion of an entire CloudFormation stack.  
+Use `Export` in output section of one template and nad it is imported by `Fn::ImportValue`
 
 ## AWS Xray
 
-=The X-Ray service map provides a view of connections between interdependent services, including average latency and any failures.
+The X-Ray service map provides a view of connections between interdependent services, including average latency and any failures.
+need X-Ray SDK and X-Ray Daemon to send data to X-Ray
+can configure annotations to indicate the environments
+
+## Sticky Session
+
+supported by Application Load Balancer
+
+## Projection Expressions
+
+can use in GetItem, Query and Scan.
+
+## Code artifact
+
+fully managed, centralized artifcat repository for software packages.
+
+## PutItem vs UpdateItem
+
+PutItem - Like PUT. insert or replace everything.
+UpdateItem - change the value of specific attribute (partial update)
+
+## Cloudwatch API 
+
+```text
+PutMetricData - publish metric
+PutMetricAlarm - create alarm 
+```
+
+## Filter Expression vs Projection Expression
+
+Filter Expression - applied after result is fetched.
+Projection Expression - applied during retrival of item.
 
