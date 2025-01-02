@@ -591,3 +591,8 @@ One instance can handle multiple shards but good approach number is instance usu
 ## Mapping in AWS cloud formation
 
 create map of keys and their associated values.
+
+## AWS Xray
+
+=The X-Ray service map provides a view of connections between interdependent services, including average latency and any failures.
+
