@@ -580,4 +580,14 @@ need header: amz-server-side-encrption: aws:kms
 for default encrption:  --sse AES256 optional
  ```s s3 cp myfile.txt s3://my-bucket/myfile.txt --sse AES256```
 
- 
+## Support for guest user
+
+identity pool
+
+## sharding
+
+One instance can handle multiple shards but good approach number is instance usually less than number of shards.
+
+## Mapping in AWS cloud formation
+
+create map of keys and their associated values.
