@@ -554,3 +554,30 @@ Captures and store time ordered sequence of time level modification
 ## Protect resource after deletion of stack (CloudFormation)
 
 - DeletionPolicy: Retain
+
+## Data type for Hash and Sort key
+
+String, Binary and Number
+
+## Unqualified arn for lambda
+
+If version is not mentioned, it will automatically point to lastest one.
+qualified arn - have version information
+
+## Key Policy
+
+If your service want to descrypt data, you can add role and also need key policy.
+Key Policy: The primary access control document attached to a KMS key, defining who can use and manage the key
+
+## AWS encryption SDK
+
+for client side encryption
+
+## customer master key
+
+key fully managed by customer in aws kms.  
+need header: amz-server-side-encrption: aws:kms
+for default encrption:  --sse AES256 optional
+ ```s s3 cp myfile.txt s3://my-bucket/myfile.txt --sse AES256```
+
+ 
