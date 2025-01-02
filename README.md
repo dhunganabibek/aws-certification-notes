@@ -546,3 +546,11 @@ Captures and store time ordered sequence of time level modification
     sam local start-api
  ```
 
+## finding performance issue in aws Gateway
+
+- aws Gateway integration latency metric in CloudWatch
+- AWS X Ray
+
+## Protect resource after deletion of stack (CloudFormation)
+
+- DeletionPolicy: Retain
